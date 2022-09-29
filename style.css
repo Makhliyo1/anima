@@ -1,0 +1,57 @@
+body{
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: lightblue;
+}
+
+div{
+width: 80px;
+height: 80px;
+border-radius: 50%;
+background: midnightblue;
+margin: 0 20px;
+animation: animate 1.5s infinite linear;
+}
+
+@keyframes animate{
+0%{ transform: translateY(0px);}
+
+50%{transform: translateY(-180px);}
+
+100%{transform: translateY(0px);}
+
+}
+
+.b1{
+animation-delay: 0s;
+}
+
+.b2{
+animation-delay: .3s;
+}
+
+.b3{
+animation-delay: 1s;
+}
+
+.b4{
+animation-delay: 2s;
+}
+
+.b5{
+animation-delay: 2.4s;
+}
+
+.line{
+position: absolute;
+top: 55%;
+left: 50%;
+transform: translate(-50% , calc(-50% + 52%));
+width: 800px;
+height: 20px;
+background: lightgreen;
+}

@@ -1,0 +1,49 @@
+
+@media (max-width:830px) {
+
+    .line{
+    width: 690px;
+    }
+
+    div{
+    width: 60px;
+    height: 60px;
+    }
+
+}
+
+@media (max-width:730px) {
+
+    .line{
+    width: 580px;
+    height: 15px;
+    }
+
+}
+
+@media (max-width:600px) {
+
+    .line{
+    width: 450px;
+    height: 10px;
+    }
+
+    div{
+    width: 40px;
+    height: 40px;
+    }
+
+}
+
+@media (max-width:480px) {
+
+    .line{
+    width: 300px;
+    }
+
+    div{
+    width: 25px;
+    height: 25px;
+    }
+
+}
